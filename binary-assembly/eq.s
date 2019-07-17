@@ -44,6 +44,7 @@ PrintRes:
   mv a1 s1
   li a0 1
   ecall
+  jr ra
 
 Exit:
   li a0 10
