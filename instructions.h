@@ -78,11 +78,11 @@ void EmitAND(enum reg rd, enum reg rs1, enum reg rs2);
 
 void EmitANDI(enum reg rd, enum reg rs1, int imm);
 
-void EmitSW(enum reg rs1, int imm, enum reg rs2);
+void EmitSW(enum reg rs2, int imm, enum reg rs1);
 
 void EmitLW(enum reg rd, int imm, enum reg rs);
 
-void EmitSB(enum reg rs1, int imm, enum reg rs2);
+void EmitSB(enum reg rs2, int imm, enum reg rs1);
 
 void EmitLB(enum reg rd, int imm, enum reg rs);
 
